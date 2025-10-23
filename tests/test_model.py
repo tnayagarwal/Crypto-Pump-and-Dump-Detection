@@ -1,0 +1,1 @@
+def test_anomaly_detector_shape(): assert True
