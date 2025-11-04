@@ -3,3 +3,5 @@ from kafka import KafkaProducer
 def simulate(): pass
 import logging
 logging.basicConfig(level=logging.INFO)
+# Configure retries for broker availability
+producer_config = {'retries': 5}
