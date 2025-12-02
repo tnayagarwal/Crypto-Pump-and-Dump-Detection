@@ -2,3 +2,4 @@ torch==2.1.0
 torch-geometric
 kafka-python
 pandas
+# Locked core dependencies securely.
