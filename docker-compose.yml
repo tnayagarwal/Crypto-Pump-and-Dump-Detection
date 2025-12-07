@@ -5,3 +5,4 @@ services:
     healthcheck:
       test: ['CMD', 'nc', '-z', 'localhost', '9092']
       interval: 10s
+# Production configuration
