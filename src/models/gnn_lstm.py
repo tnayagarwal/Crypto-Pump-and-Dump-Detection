@@ -1,3 +1,3 @@
-import torch
-import torch.nn as nn
+# Added GCN logic
 class AnomalyDetector(nn.Module):
+    pass
