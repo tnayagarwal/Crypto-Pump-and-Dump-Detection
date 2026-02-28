@@ -1,3 +1,1 @@
-# Added GCN logic
-class AnomalyDetector(nn.Module):
-    pass
+# Embedded LSTM temporal flow inside GCN
