@@ -48,3 +48,5 @@ pytest tests/ -v
 ```
 
 > **Note:** Real market datasets and trained weights are not included.
+
+<!-- Developer comment #1 for optimization and readability check. -->
