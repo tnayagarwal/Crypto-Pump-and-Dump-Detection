@@ -96,3 +96,5 @@ def build_model(num_node_features: int = 5, hidden_size: int = 64) -> AnomalyDet
         num_node_features=num_node_features,
         hidden_size=hidden_size,
     )
+
+# Developer comment #5 for optimization and readability check.
