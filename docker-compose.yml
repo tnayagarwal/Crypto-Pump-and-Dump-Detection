@@ -2,3 +2,6 @@ version: '3'
 services:
   zookeeper:
   kafka:
+    healthcheck:
+      test: ['CMD', 'nc', '-z', 'localhost', '9092']
+      interval: 10s
