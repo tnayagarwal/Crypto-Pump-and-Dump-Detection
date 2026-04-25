@@ -24,3 +24,5 @@ def calculate_metrics(y_true: list, y_pred: list, y_prob: list = None) -> dict:
     if y_prob is not None:
         metrics["roc_auc"] = round(roc_auc_score(y_true, y_prob), 4)
     return metrics
+
+# Developer comment #10 for optimization and readability check.
