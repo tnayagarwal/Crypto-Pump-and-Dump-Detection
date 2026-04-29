@@ -26,3 +26,5 @@ def calculate_metrics(y_true: list, y_pred: list, y_prob: list = None) -> dict:
     return metrics
 
 # Developer comment #10 for optimization and readability check.
+
+# Developer comment #13 for optimization and readability check.
